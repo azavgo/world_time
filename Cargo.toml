@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+tokio = { version = "1.48.0", features = ["full"] } 
+ntp = "0.5.0"
+chrono = "0.4.42"
+chrono-tz = "0.10.4"
